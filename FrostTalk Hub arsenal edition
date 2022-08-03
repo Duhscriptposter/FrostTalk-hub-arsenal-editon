@@ -1,0 +1,209 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local FrostTalkHubarsenaledition = Instance.new("ScreenGui")
+local frost = Instance.new("Frame")
+local SideBar = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Pages = Instance.new("Frame")
+local Comingsoon = Instance.new("TextLabel")
+local scripts = Instance.new("ScrollingFrame")
+local AIMBOT = Instance.new("TextButton")
+local ESP = Instance.new("TextButton")
+local owlhub = Instance.new("TextButton")
+local darkhub = Instance.new("TextButton")
+local VGhub = Instance.new("TextButton")
+local boltsware = Instance.new("TextButton")
+local keybrew = Instance.new("TextButton")
+local poggershub = Instance.new("TextButton")
+local comingsoon = Instance.new("TextButton")
+
+--Properties:
+
+FrostTalkHubarsenaledition.Name = "FrostTalk Hub (arsenal edition)"
+FrostTalkHubarsenaledition.Parent = game.StarterGui.FrostTalk hub
+FrostTalkHubarsenaledition.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+frost.Name = "frost"
+frost.Parent = FrostTalkHubarsenaledition
+frost.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+frost.BorderSizePixel = 0
+frost.Position = UDim2.new(0.177215189, 0, 0.280593336, 0)
+frost.Size = UDim2.new(0, 612, 0, 310)
+frost.Active = true
+frost.Draggable = true
+
+SideBar.Name = "SideBar"
+SideBar.Parent = frost
+SideBar.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+SideBar.BorderSizePixel = 0
+SideBar.Position = UDim2.new(-0.000889397925, 0, -5.17814406e-05, 0)
+SideBar.Size = UDim2.new(0, 134, 0, 310)
+SideBar.Active = true
+SideBar.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = SideBar
+Title.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0588119291, 0, 0.022580646, 0)
+Title.Size = UDim2.new(0, 116, 0, 50)
+Title.Font = Enum.Font.ArialBold
+Title.Text = "FrostTalk Hub (arsenal edition)"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Pages.Name = "Pages"
+Pages.Parent = SideBar
+Pages.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Pages.BorderSizePixel = 0
+Pages.Position = UDim2.new(0.0588120408, 0, 0.216077253, 0)
+Pages.Size = UDim2.new(0, 117, 0, 224)
+
+Comingsoon.Name = "Comingsoon"
+Comingsoon.Parent = Pages
+Comingsoon.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Comingsoon.BorderSizePixel = 0
+Comingsoon.Position = UDim2.new(0.0427350439, 0, 0.28125, 0)
+Comingsoon.Size = UDim2.new(0, 108, 0, 50)
+Comingsoon.Font = Enum.Font.ArialBold
+Comingsoon.Text = "Coming soon"
+Comingsoon.TextColor3 = Color3.fromRGB(255, 255, 255)
+Comingsoon.TextSize = 14.000
+
+scripts.Name = "scripts"
+scripts.Parent = frost
+scripts.Active = true
+scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scripts.BackgroundTransparency = 1.000
+scripts.BorderSizePixel = 0
+scripts.Position = UDim2.new(0.218064845, 0, 0, 0)
+scripts.Size = UDim2.new(0, 478, 0, 309)
+scripts.CanvasPosition = Vector2.new(0, 311)
+
+AIMBOT.Name = "AIMBOT"
+AIMBOT.Parent = scripts
+AIMBOT.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+AIMBOT.BorderSizePixel = 0
+AIMBOT.Position = UDim2.new(0.0251729637, 0, 0.0258064494, 0)
+AIMBOT.Size = UDim2.new(0, 455, 0, 50)
+AIMBOT.Font = Enum.Font.ArialBold
+AIMBOT.Text = "Aimbot"
+AIMBOT.TextColor3 = Color3.fromRGB(255, 255, 255)
+AIMBOT.TextSize = 14.000
+AIMBOT.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/DzUt94By"))();
+end)
+
+ESP.Name = "ESP"
+ESP.Parent = scripts
+ESP.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.0251729637, 0, 0.127419353, 0)
+ESP.Size = UDim2.new(0, 455, 0, 50)
+ESP.Font = Enum.Font.ArialBold
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESP.TextSize = 14.000
+ESP.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936752244018249768/1003056928194314300/New_Text_Document.txt')
+end)
+
+owlhub.Name = "owlhub"
+owlhub.Parent = scripts
+owlhub.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+owlhub.BorderSizePixel = 0
+owlhub.Position = UDim2.new(0.0251729637, 0, 0.232258037, 0)
+owlhub.Size = UDim2.new(0, 455, 0, 50)
+owlhub.Font = Enum.Font.ArialBold
+owlhub.Text = "Owl Hub"
+owlhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+owlhub.TextSize = 14.000
+owlhub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+darkhub.Name = "darkhub"
+darkhub.Parent = scripts
+darkhub.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+darkhub.BorderSizePixel = 0
+darkhub.Position = UDim2.new(0.0250000004, 0, 0.341677397, 0)
+darkhub.Size = UDim2.new(0, 455, 0, 50)
+darkhub.Font = Enum.Font.ArialBold
+darkhub.Text = "Dark Hub"
+darkhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+darkhub.TextSize = 14.000
+darkhub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+VGhub.Name = "V.Ghub"
+VGhub.Parent = scripts
+VGhub.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+VGhub.BorderSizePixel = 0
+VGhub.Position = UDim2.new(0.0250000004, 0, 0.448451638, 0)
+VGhub.Size = UDim2.new(0, 455, 0, 50)
+VGhub.Font = Enum.Font.ArialBold
+VGhub.Text = "V.G Hub"
+VGhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+VGhub.TextSize = 14.000
+VGhub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+boltsware.Name = "boltsware"
+boltsware.Parent = scripts
+boltsware.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+boltsware.BorderSizePixel = 0
+boltsware.Position = UDim2.new(0.0250000004, 0, 0.561354876, 0)
+boltsware.Size = UDim2.new(0, 455, 0, 50)
+boltsware.Font = Enum.Font.ArialBold
+boltsware.Text = "Bolts Ware"
+boltsware.TextColor3 = Color3.fromRGB(255, 255, 255)
+boltsware.TextSize = 14.000
+boltsware.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
+end)
+
+keybrew.Name = "keybrew"
+keybrew.Parent = scripts
+keybrew.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+keybrew.BorderSizePixel = 0
+keybrew.Position = UDim2.new(0.0250000004, 0, 0.679096818, 0)
+keybrew.Size = UDim2.new(0, 455, 0, 50)
+keybrew.Font = Enum.Font.ArialBold
+keybrew.Text = "Key Brew"
+keybrew.TextColor3 = Color3.fromRGB(255, 255, 255)
+keybrew.TextSize = 14.000
+keybrew.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/borntodiekuv/KeybrewHub/main/Main"))()
+end)
+
+poggershub.Name = "poggershub"
+poggershub.Parent = scripts
+poggershub.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+poggershub.BorderSizePixel = 0
+poggershub.Position = UDim2.new(0.0250000004, 0, 0.798451662, 0)
+poggershub.Size = UDim2.new(0, 455, 0, 50)
+poggershub.Font = Enum.Font.ArialBold
+poggershub.Text = "Poggers Hub"
+poggershub.TextColor3 = Color3.fromRGB(255, 255, 255)
+poggershub.TextSize = 14.000
+poggershub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RealCalebB/Poggers-Hub-Test/main/Poggers%20Hub%20Test"))()
+end)
+
+comingsoon.Name = "comingsoon"
+comingsoon.Parent = scripts
+comingsoon.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+comingsoon.BorderSizePixel = 0
+comingsoon.Position = UDim2.new(0.0250000004, 0, 0.912967801, 0)
+comingsoon.Size = UDim2.new(0, 455, 0, 50)
+comingsoon.Font = Enum.Font.ArialBold
+comingsoon.Text = "(coming soon)"
+comingsoon.TextColor3 = Color3.fromRGB(255, 255, 255)
+comingsoon.TextSize = 14.000
+comingsoon.MouseButton1Click:Connect(function()
+    print("WAIT FOR AN UPDATE YOU RETARD")
+end)
